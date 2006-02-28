@@ -104,10 +104,11 @@ Ten pakiet zawiera font Terminus dla X11.
 
 %install
 
+rm -rf $RPM_BUILD_ROOT
 %{__make} install \
-	x11dir=$RPM_BUILD_ROOT/usr/share/fonts/local \
+	x11dir=$RPM_BUILD_ROOT%{_datadir}/fonts/local \
 	psfdir=$RPM_BUILD_ROOT/lib/kbd/consolefonts
-	
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -125,4 +126,4 @@ fontpostinst local
 %files X11
 %defattr(644,root,root,755)
 %doc README
-/usr/share/fonts/local/*
+%{_datadir}/fonts/local/*
