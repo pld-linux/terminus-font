@@ -70,6 +70,7 @@ Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 Summary:	A clean fixed width font
 Summary(pl):	Przejrzysty font o sta³ej szeroko¶ci
 Group:		Fonts
+Requires(post,postun): fontpostinst
 
 %description X11
 Terminus Font is designed for long (8 and more hours per day) work
