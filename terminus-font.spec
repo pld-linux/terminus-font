@@ -1,5 +1,5 @@
 Summary:	A clean fixed width font
-Summary(pl):	Przejrzysty font o sta³ej szeroko¶ci
+Summary(pl.UTF-8):   Przejrzysty font o staÅ‚ej szerokoÅ›ci
 Name:		terminus-font
 Version:	4.20
 Release:	2
@@ -25,20 +25,20 @@ vt100 and xterm pseudographic characters.
 The sizes present are 8x14, 8x16, 10x20, 12x24, 14x28 and 16x32. The
 styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
 
-%description -l pl
-Font Terminus jest zaprojektowany do d³ugiej (8 i wiêcej godzin
+%description -l pl.UTF-8
+Font Terminus jest zaprojektowany do dÅ‚ugiej (8 i wiÄ™cej godzin
 dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywaj±ce strony kodowe ISO8859-1/2/5/9/13/15/16,
+pokrywajÄ…ce strony kodowe ISO8859-1/2/5/9/13/15/16,
 Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
 Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-tak¿e znaki pseudograficzne vt100 i xterma.
+takÅ¼e znaki pseudograficzne vt100 i xterma.
 
-Dostêpne s± rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
+DostÄ™pne sÄ… rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
 normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
 
 %package console
 Summary:	A clean fixed width font
-Summary(pl):	Przejrzysty font o sta³ej szeroko¶ci
+Summary(pl.UTF-8):   Przejrzysty font o staÅ‚ej szerokoÅ›ci
 Group:		Fonts
 
 %description console
@@ -54,22 +54,22 @@ styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
 
 This package contains Terminus Font for Linux console.
 
-%description console -l pl
-Font Terminus jest zaprojektowany do d³ugiej (8 i wiêcej godzin
+%description console -l pl.UTF-8
+Font Terminus jest zaprojektowany do dÅ‚ugiej (8 i wiÄ™cej godzin
 dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywaj±ce strony kodowe ISO8859-1/2/5/9/13/15/16,
+pokrywajÄ…ce strony kodowe ISO8859-1/2/5/9/13/15/16,
 Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
 Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-tak¿e znaki pseudograficzne vt100 i xterma.
+takÅ¼e znaki pseudograficzne vt100 i xterma.
 
-Dostêpne s± rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
+DostÄ™pne sÄ… rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
 normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
 
 Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 
 %package X11
 Summary:	A clean fixed width font
-Summary(pl):	Przejrzysty font o sta³ej szeroko¶ci
+Summary(pl.UTF-8):   Przejrzysty font o staÅ‚ej szerokoÅ›ci
 Group:		Fonts
 Requires(post,postun): fontpostinst
 
@@ -86,15 +86,15 @@ styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
 
 This package contains Terminus Font for X11 displays.
 
-%description X11 -l pl
-Font Terminus jest zaprojektowany do d³ugiej (8 i wiêcej godzin
+%description X11 -l pl.UTF-8
+Font Terminus jest zaprojektowany do dÅ‚ugiej (8 i wiÄ™cej godzin
 dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywaj±ce strony kodowe ISO8859-1/2/5/9/13/15/16,
+pokrywajÄ…ce strony kodowe ISO8859-1/2/5/9/13/15/16,
 Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
 Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-tak¿e znaki pseudograficzne vt100 i xterma.
+takÅ¼e znaki pseudograficzne vt100 i xterma.
 
-Dostêpne s± rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
+DostÄ™pne sÄ… rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
 normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
 
 Ten pakiet zawiera font Terminus dla X11.
