@@ -1,5 +1,5 @@
 Summary:	A clean fixed width font
-Summary(pl.UTF-8):   Przejrzysty font o stałej szerokości
+Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
 Version:	4.20
 Release:	2
@@ -38,7 +38,7 @@ normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
 
 %package console
 Summary:	A clean fixed width font
-Summary(pl.UTF-8):   Przejrzysty font o stałej szerokości
+Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Group:		Fonts
 
 %description console
@@ -69,7 +69,7 @@ Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 
 %package X11
 Summary:	A clean fixed width font
-Summary(pl.UTF-8):   Przejrzysty font o stałej szerokości
+Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Group:		Fonts
 Requires(post,postun): fontpostinst
 
