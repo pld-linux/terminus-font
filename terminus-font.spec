@@ -2,7 +2,7 @@ Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
 Version:	4.20
-Release:	2
+Release:	3
 Epoch:		0
 License:	GPL
 Group:		Fonts
