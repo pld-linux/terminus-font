@@ -1,14 +1,14 @@
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
-Version:	4.20
-Release:	3
+Version:	4.28
+Release:	1
 Epoch:		0
 License:	GPL
 Group:		Fonts
 Source0:	http://www.is-vn.bg/hamster/%{name}-%{version}.tar.gz
-# Source0-md5:	fe9d8e25b9537f6b3154d07d3da50375
-URL:		http://www.is-vn.bg/hamster/jimmy-en.html
+# Source0-md5:	15bf2f17b625312383fd9dae0925a17e
+URL:		http://www.is-vn.bg/hamster/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
 BuildArch:	noarch
