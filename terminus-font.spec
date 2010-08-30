@@ -6,9 +6,9 @@ Release:	1
 Epoch:		0
 License:	GPL
 Group:		Fonts
-Source0:	http://www.is-vn.bg/hamster/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
 # Source0-md5:	6f8bd95b593851f9f5c210a9d33cbbf1
-URL:		http://www.is-vn.bg/hamster/
+URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
 BuildArch:	noarch
