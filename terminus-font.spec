@@ -1,13 +1,13 @@
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
-Version:	4.30
+Version:	4.34
 Release:	1
 Epoch:		0
-License:	GPL
+License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
-Source0:	http://dl.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
-# Source0-md5:	6f8bd95b593851f9f5c210a9d33cbbf1
+Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
+# Source0-md5:	13fb522492bbd0d105a7c45bac398aa7
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
@@ -16,54 +16,61 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Version 4.09 contains 594 characters, covering code
-pages ISO8859-1/2/5/9/13/15/16, Windows-1250/1251/1252/1254/1257,
-IBM-437/852/855/866, KOI8-R/U/E/F, Bulgarian-MIK,
-Paratype-PT154/PT254, Macintosh-Ukrainian and Esperanto, and also the
-vt100 and xterm pseudographic characters.
+with computers. Now it contains 850 characters and covers 120 language
+sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
+IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
+Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
+Esperanto, and also the vt100 and xterm pseudographic characters.
 
-The sizes present are 8x14, 8x16, 10x20, 12x24, 14x28 and 16x32. The
-styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
+The sizes present are 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 and 16x32. The styles are normal and bold, plus EGA/VGA-bold for
+8x14 and 8x16.
 
 %description -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywające strony kodowe ISO8859-1/2/5/9/13/15/16,
-Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
-Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-także znaki pseudograficzne vt100 i xterma.
+dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+pokrywających 120 języków i następujące strony kodowe:
+ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
+Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
+Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a także znaki
+pseudograficzne vt100 i xterma.
 
-Dostępne są rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
-normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
+Dostępne są rozmiary 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 i 16x32. Style to normalny i pogrubiony, oraz pogrubiony EGA/VGA
+dla 8x14 i 8x16.
 
 %package console
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
+License:	SIL Open Font License v1.1
 Group:		Fonts
 
 %description console
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Version 4.09 contains 594 characters, covering code
-pages ISO8859-1/2/5/9/13/15/16, Windows-1250/1251/1252/1254/1257,
-IBM-437/852/855/866, KOI8-R/U/E/F, Bulgarian-MIK,
-Paratype-PT154/PT254, Macintosh-Ukrainian and Esperanto, and also the
-vt100 and xterm pseudographic characters.
+with computers. Now it contains 850 characters and covers 120 language
+sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
+IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
+Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
+Esperanto, and also the vt100 and xterm pseudographic characters.
 
-The sizes present are 8x14, 8x16, 10x20, 12x24, 14x28 and 16x32. The
-styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
+The sizes present are 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 and 16x32. The styles are normal and bold, plus EGA/VGA-bold for
+8x14 and 8x16.
 
 This package contains Terminus Font for Linux console.
 
 %description console -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywające strony kodowe ISO8859-1/2/5/9/13/15/16,
-Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
-Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-także znaki pseudograficzne vt100 i xterma.
+dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+pokrywających 120 języków i następujące strony kodowe:
+ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
+Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
+Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a także znaki
+pseudograficzne vt100 i xterma.
 
-Dostępne są rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
-normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
+Dostępne są rozmiary 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 i 16x32. Style to normalny i pogrubiony, oraz pogrubiony EGA/VGA
+dla 8x14 i 8x16.
 
 Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 
@@ -71,31 +78,35 @@ Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Group:		Fonts
+License:	SIL Open Font License v1.1
 Requires(post,postun): fontpostinst
 
 %description X11
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Version 4.09 contains 594 characters, covering code
-pages ISO8859-1/2/5/9/13/15/16, Windows-1250/1251/1252/1254/1257,
-IBM-437/852/855/866, KOI8-R/U/E/F, Bulgarian-MIK,
-Paratype-PT154/PT254, Macintosh-Ukrainian and Esperanto, and also the
-vt100 and xterm pseudographic characters.
+with computers. Now it contains 850 characters and covers 120 language
+sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
+IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
+Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
+Esperanto, and also the vt100 and xterm pseudographic characters.
 
-The sizes present are 8x14, 8x16, 10x20, 12x24, 14x28 and 16x32. The
-styles are normal and bold, plus EGA/VGA-bold for 8x14 and 8x16.
+The sizes present are 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 and 16x32. The styles are normal and bold, plus EGA/VGA-bold for
+8x14 and 8x16.
 
 This package contains Terminus Font for X11 displays.
 
 %description X11 -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Wersja 4.09 zawiera 594 znaki,
-pokrywające strony kodowe ISO8859-1/2/5/9/13/15/16,
-Windows-1250/1251/1252/1254/1257, IBM-437/852/855/866, KOI8-R/U/E/F,
-Bulgarian-MIK,Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a
-także znaki pseudograficzne vt100 i xterma.
+dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+pokrywających 120 języków i następujące strony kodowe:
+ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
+Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
+Paratype-PT154/PT254, Macintosh-Ukrainian i Esperanto, a także znaki
+pseudograficzne vt100 i xterma.
 
-Dostępne są rozmiary 8x14, 8x16, 10x20, 12x24, 14x28 i 16x32. Style to
-normalny i pogrubiony, oraz pogrubiony EGA/VGA dla 8x14 i 8x16.
+Dostępne są rozmiary 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
+14x28 i 16x32. Style to normalny i pogrubiony, oraz pogrubiony EGA/VGA
+dla 8x14 i 8x16.
 
 Ten pakiet zawiera font Terminus dla X11.
 
@@ -123,10 +134,10 @@ fontpostinst local
 
 %files console
 %defattr(644,root,root,755)
-%doc README
-/lib/kbd/consolefonts/*
+%doc AUTHORS CHANGES README
+/lib/kbd/consolefonts/ter-*.psf.gz
 
 %files X11
 %defattr(644,root,root,755)
-%doc README
-%{_datadir}/fonts/local/*
+%doc AUTHORS CHANGES README
+%{_datadir}/fonts/local/ter-*.pcf.gz
