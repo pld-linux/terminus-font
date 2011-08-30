@@ -1,13 +1,13 @@
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
-Version:	4.35
+Version:	4.36
 Release:	1
 Epoch:		0
 License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
 Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
-# Source0-md5:	aae64091ad9c7d1d0f8942ffa9026c36
+# Source0-md5:	de925a7ee7351581033d4b615dcb1eb1
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Now it contains 850 characters and covers 120 language
+with computers. Now it contains 856 characters and covers 120 language
 sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
 IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
 Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
@@ -28,7 +28,7 @@ The sizes present are 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24,
 
 %description -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+dziennie) pracy z komputerami. Obecna wersja zawiera 856 znaków,
 pokrywających 120 języków i następujące strony kodowe:
 ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
 Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
@@ -47,7 +47,7 @@ Group:		Fonts
 
 %description console
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Now it contains 850 characters and covers 120 language
+with computers. Now it contains 856 characters and covers 120 language
 sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
 IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
 Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
@@ -61,7 +61,7 @@ This package contains Terminus Font for Linux console.
 
 %description console -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+dziennie) pracy z komputerami. Obecna wersja zawiera 856 znaków,
 pokrywających 120 języków i następujące strony kodowe:
 ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
 Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
@@ -77,13 +77,13 @@ Ten pakiet zawiera font Terminus dla konsoli Linuksa.
 %package X11
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
-Group:		Fonts
 License:	SIL Open Font License v1.1
-Requires(post,postun): fontpostinst
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 
 %description X11
 Terminus Font is designed for long (8 and more hours per day) work
-with computers. Now it contains 850 characters and covers 120 language
+with computers. Now it contains 856 characters and covers 120 language
 sets and the following code pages: ISO8859-1/2/5/7/9/13/15/16,
 IBM-437/852/855/866, Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F,
 Bulgarian-MIK, Paratype-PT154/PT254, Macintosh-Ukrainian and
@@ -97,7 +97,7 @@ This package contains Terminus Font for X11 displays.
 
 %description X11 -l pl.UTF-8
 Font Terminus jest zaprojektowany do długiej (8 i więcej godzin
-dziennie) pracy z komputerami. Obecna wersja zawiera 850 znaków,
+dziennie) pracy z komputerami. Obecna wersja zawiera 856 znaków,
 pokrywających 120 języków i następujące strony kodowe:
 ISO8859-1/2/5/7/9/13/15/16, IBM-437/852/855/866,
 Windows-1250/1251/1252/1254/1257, KOI8-R/U/E/F, Bulgarian-MIK,
