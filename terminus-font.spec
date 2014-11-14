@@ -8,6 +8,7 @@ License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
 Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
 # Source0-md5:	1ec1bee67a1c017f349bc8558b2d4fa6
+Source1:	terminus-fonts-fontconfig.conf
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
@@ -114,14 +115,21 @@ Ten pakiet zawiera font Terminus dla X11.
 %setup -q
 
 %build
-%{__make}
+./configure \
+	--x11dir=%{_datadir}/fonts/local \
+	--psfdir=/lib/kbd/consolefonts
+%{__make} pcf psf
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
-	x11dir=$RPM_BUILD_ROOT%{_datadir}/fonts/local \
-	psfdir=$RPM_BUILD_ROOT/lib/kbd/consolefonts
+install -d $RPM_BUILD_ROOT{%{_datadir}/fontconfig/conf.avail,%{_sysconfdir}/fonts/conf.d}
+
+%{__make} install-psf install-pcf install-ref \
+	DESTDIR=$RPM_BUILD_ROOT
+
+install -p %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/fontconfig/conf.avail/63-%{name}.conf
+ln -s %{_datadir}/fontconfig/conf.avail/63-%{name}.conf $RPM_BUILD_ROOT%{_sysconfdir}/fonts/conf.d/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -141,3 +149,5 @@ fontpostinst local
 %defattr(644,root,root,755)
 %doc AUTHORS CHANGES README
 %{_datadir}/fonts/local/ter-*.pcf.gz
+%{_datadir}/fontconfig/conf.avail/63-%{name}.conf
+%{_sysconfdir}/fonts/conf.d/63-%{name}.conf
