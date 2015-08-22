@@ -1,12 +1,12 @@
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
-Version:	4.39
+Version:	4.40
 Release:	1
 License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
 Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
-# Source0-md5:	1ec1bee67a1c017f349bc8558b2d4fa6
+# Source0-md5:	1e1df0d2c612c374ebe7966f90f04e0c
 Source1:	terminus-fonts-fontconfig.conf
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
