@@ -11,6 +11,7 @@ Source1:	terminus-fonts-fontconfig.conf
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
 BuildRequires:	xorg-app-bdftopcf
+Conflicts:	freetype < 1:2.7.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
