@@ -1,12 +1,12 @@
 Summary:	A clean fixed width font
 Summary(pl.UTF-8):	Przejrzysty font o stałej szerokości
 Name:		terminus-font
-Version:	4.40
-Release:	2
+Version:	4.46
+Release:	1
 License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
 Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
-# Source0-md5:	1e1df0d2c612c374ebe7966f90f04e0c
+# Source0-md5:	368f512a88b5855fe2f12a9262da52f2
 Source1:	terminus-fonts-fontconfig.conf
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
@@ -125,7 +125,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{_datadir}/fontconfig/conf.avail,%{_sysconfdir}/fonts/conf.d}
 
-%{__make} install-psf install-pcf install-ref \
+%{__make} install-psf install-pcf install-psf-ref \
 	DESTDIR=$RPM_BUILD_ROOT
 
 install -p %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/fontconfig/conf.avail/63-%{name}.conf
