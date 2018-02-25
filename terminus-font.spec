@@ -6,7 +6,7 @@ Release:	1
 License:	SIL Open Font License v1.1 (font), GPL v2+ (utils)
 Group:		Fonts
 Source0:	http://downloads.sourceforge.net/terminus-font/%{name}-%{version}.tar.gz
-# Source0-md5:	368f512a88b5855fe2f12a9262da52f2
+# Source0-md5:	cb530d737c8f2d1023797cf0587b4e05
 Source1:	terminus-fonts-fontconfig.conf
 URL:		http://sourceforge.net/projects/terminus-font/
 BuildRequires:	perl-base
